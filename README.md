@@ -1,10 +1,15 @@
 # Surgical Digital Twins — Living Review Repository
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21730135.svg)](https://doi.org/10.5281/zenodo.21730135)
+
 Companion repository for the review:
 
 > Fang H, Wang Q. *Digital Twins and Virtual Iteration in Precision Surgery: A Computational
 > Framework for Patient-Specific Image-Guided Modeling, Simulation, and Closed-Loop Optimization.*
 > Submitted to Medical Image Analysis (2026).
+
+**Citation:** Fang H, Wang Q. Living Review Repository: Digital Twins and Virtual Iteration in
+Precision Surgery (v1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.21730135
 
 ## Contents
 
