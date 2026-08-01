@@ -1,0 +1,9 @@
+﻿# Table 15. Proposed minimal design for a public surgical digital twin benchmark.
+Component,Specification
+Input package,"Standardized preoperative CT/MRI, clinical context, candidate intervention sets"
+Tasks,(i) patient-specific model construction; (ii) endpoint prediction per candidate intervention; (iii) calibrated uncertainty per prediction
+Initial domains,TAVI prosthesis sizing; pedicle screw placement; tumor resection margins
+Data scale,"Multi-center retrospective corpus, few hundred verified cases per domain; withheld intraoperative data for the updating track"
+Tracks,(a) offline planning; (b) online updating; (c) uncertainty calibration
+Metrics,Endpoint error vs. ground truth; expected calibration error; compute budget reporting
+Governance,"MICCAI-style challenge, held-out test set, persistent leaderboard, annual re-evaluation"

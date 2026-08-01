@@ -1,0 +1,13 @@
+﻿"# Table 10. Representative applications of surgical digital twins and virtual iteration by stage, with quantitative endpoints and Oxford CEBM evidence levels {{ocebm}} (values as reported)."
+Stage / domain,Key computational problem,Imaging input,Modeling and iteration methods,Quantitative endpoint (as reported),Evidence level,Representative studies
+Preoperative — brain tumor,"Maximize resection, protect eloquent cortex and tracts","MRI, fMRI, DTI",VR reconstruction; differentiable simulation for interactive path planning,Plan–intraoperative concordance in case series,IV,
+Preoperative — spine deformity,Screw density and 3D correction strategy,"CT, radiographs",FEA-based configuration comparison,Correction objective dominates screw pattern/density (biomechanical study),IV (in silico),
+Preoperative — TAVI / valve-in-valve,"Prosthesis sizing, positioning, hemodynamics","CT, echo",Parametric FSI; micro-CT device reverse modeling,Bench gradients/regurgitation vs. implantation depth,IV (bench),
+Preoperative — fracture fixation,Reduction and implant configuration,CT,Patient-specific FEA with motion capture and musculoskeletal modeling,Pre/post-revision stress–strain analysis in case series,IV,
+Preoperative — implant selection,Osseointegration and loosening risk,CT,"FEA + biological response modeling, design of experiments","In silico loosening-risk ranking (e.g., hydroxyapatite-coated stems favored)",IV (in silico),
+Preoperative — orthognathic,Plan-to-patient geometric transfer,CT/CBCT,Virtual planning + mixed-reality transfer,Postoperative maxillary deviation < 2 mm vs. plan,IV,
+Intraoperative — spine navigation,Model-to-patient alignment,"iCT, structured light",Rigid registration; AR overlay,See Section 4.5: pooled perforation 6% vs. 15% (navigated vs. conventional) ,III (meta-analysis of cohorts),
+Intraoperative — margin/perfusion,Resection completeness,"Fluorescence (ICG), iUS",Functional overlay on navigation,Perfusion/margin assessment in clinical series,IV,
+Postoperative — healing,Fracture healing trajectory,Longitudinal CT,Iteratively updated FE with mechanobiology,Callus stiffness/strength trends in case series,IV,
+Postoperative — rehabilitation,Functional recovery and protocol adaptation,"Wearables, sEMG, motion capture",Data-driven prediction; digital-therapeutic twins,Adherence and functional-score gains in cohorts,IV,
+Postoperative — surveillance,Late complication risk,"EHR, labs, imaging",ML risk prediction with explainability,Retrospective cohort discrimination (AUROC reported per study),IV,

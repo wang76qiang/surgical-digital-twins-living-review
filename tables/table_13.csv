@@ -1,0 +1,9 @@
+﻿"# Table 13. Credibility assessment template for surgical digital twins, structured by ASME V&V 40 credibility activities {{vv40}}, with current literature status (this review's assessment)."
+Credibility activity (V&V 40),Core question,Methods/evidence required,Surgical twin examples,Current status
+Code verification,Is the software implementation correct?,"Benchmark solutions, regression testing, code review","Mature solvers: FEBio , SimVascular , openCARP ",Adequate for solvers; largely absent for imaging-to-model pipelines
+Calculation verification,Are numerical errors quantified?,"Mesh/time-step convergence, discretization error estimates",FEA/CFD/EP solver studies,Reported inconsistently
+Geometric validation,Does the model match patient anatomy?,"Dice, HD95, surface distance vs. expert reference; endpoint-relevant TRE",Segmentation benchmarks ; registration validation ,Strong for segmentation (in-distribution); weak for endpoint error and domain shift 
+Physics validation,Does the simulation match physical reality?,Bench/phantom experiments; independent in vivo measurements,ViV hydrodynamics ; FSI vs. 4D flow ; ECG calibration ; CT imaging-chain validation ,Sparse but exemplary cases exist
+Clinical validation,Does twin-guided care improve outcomes?,"Prospective cohorts, RCTs; in silico trials as complements",Navigation meta-analyses ; in silico trial frameworks ,Geometric endpoints: moderate (level III); patient outcomes: largely absent
+Uncertainty quantification,How much can predictions be trusted?,Parameter/model-form/measurement UQ; sensitivity analysis,VVUQ of theranostic twins ; probabilistic Purkinje inference ,Nascent; rarely reported
+Applicability assessment,Does evidence cover the context of use?,"Population, anatomy, and condition coverage analysis",Multi-center/domain-shift studies ,Rarely explicit

@@ -1,0 +1,9 @@
+{
+ "valid_count": 143,
+ "note": "143/144 DOIs resolve via CrossRef after fixing fitzpatrick, synthmorph, rivaz; tang_mr (10.3760/cma.j.cn112144-20240711-00266) is a legitimate CMA DOI not registered in CrossRef but resolves correctly via doi.org (HTTP 200, yiigle.com). Checked 2026-07-29.",
+ "fixed": [
+  "fitzpatrick: 10.1109/42.952729",
+  "synthmorph: 10.1109/TMI.2021.3116879",
+  "rivaz: 10.1109/TMI.2014.2354352"
+ ]
+}

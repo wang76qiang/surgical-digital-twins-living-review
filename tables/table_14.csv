@@ -1,0 +1,12 @@
+﻿# Table 14. Public datasets and benchmarks relevant to surgical digital twins.
+Resource,Anatomy/task,Modality,Scale,Role in the twin pipeline,Reference
+BraTS,Brain tumor segmentation,Multiparametric MRI,"Multi-center, annual challenges",Tumor geometry for neurosurgical twins,
+HCP,Brain structure/connectivity,MRI/fMRI/DTI,">1,000 subjects",Tractography and functional constraints,
+ABIDE,Large-scale brain imaging,MRI/fMRI,">1,000 subjects, multi-site",Cross-site generalization testing,
+MM-WHS,Whole-heart segmentation,CT/MRI,Multi-modality challenge,Cardiac anatomy,
+ACDC,Cardiac multi-structure segmentation and diagnosis,Cine MRI,100 patients,Ventricular geometry and function,
+M&Ms,Cardiac segmentation under vendor/disease shift,Cine MRI,"Multi-centre, multi-vendor, multi-disease",Domain-shift robustness testing,
+LAScarQS / LGE-MRI AF resources,Left atrial cavity and scar,LGE MRI,Challenge + reviewed datasets,Atrial twin anatomy and fibrosis,
+AbdomenCT-1K / FLARE,Abdominal multi-organ segmentation,CT,">1,000 cases",General anatomical scaffold,
+TotalSegmentator,104-structure CT segmentation,CT,"1,204 exams",General anatomical scaffold,
+OAI,Knee osteoarthritis cohort,MRI/radiography,"~4,800 participants, longitudinal",Musculoskeletal longitudinal modeling,

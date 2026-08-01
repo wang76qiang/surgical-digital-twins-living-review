@@ -1,0 +1,8 @@
+﻿# Table 1. Comparison of this review with recent surveys of digital twins in medicine and surgery.
+Review,Scope,Method depth (segmentation/registration/simulation),Formal treatment of virtual iteration,VVUQ coverage,Quantitative method/dataset tables,Search methodology reported
+"Tudor et al., npj Digit Med 2025 ",Human digital twins across healthcare,Low,No,Partial (reports scarcity of VVUQ),Usage-pattern statistics,Yes (scoping review)
+"Sadée et al., Lancet Digit Health 2025 ",Medical digital twins and AI,Low–moderate,No,Conceptual,No,No
+"Samei, PNAS Nexus 2025 ",In silico trials and digital twins,Moderate (imaging physics),No,Strong,No,No
+"Thangaraj et al., Eur Heart J 2024 ",Cardiovascular digital twins,Moderate,No,Partial,No,No
+"Diniz et al., KSSTA 2025 ",Musculoskeletal digital twins,Moderate,No,Partial,Application summaries,Partial
+This review,Image-guided surgical digital twins,"High (segmentation, reconstruction, registration, multiphysics simulation, data assimilation)","Yes (closed-loop formalization, taxonomy, notation)",Dedicated chapter aligned with ASME V&V 40 and FDA CM&S guidance,"Yes (13 tables, incl. quantitative performance and evidence grading)","Yes (PRISMA-ScR-style, Section 1.4)"

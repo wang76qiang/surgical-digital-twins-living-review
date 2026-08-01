@@ -1,0 +1,8 @@
+﻿# Table 3. Quantitative performance of representative segmentation methods relevant to surgical digital twins (values as reported in the cited primary publications; per-study metrics are not directly comparable across datasets).
+Method,Task / dataset,Reported performance,Validation setting,Reference
+nnU-Net,23 public segmentation challenge datasets (53 tasks),Surpassed most specialized challenge solutions without manual tuning,International challenge benchmarks,
+Swin UNETR,BraTS 2021 brain tumor segmentation,"Test-set Dice: ET 0.853, WT 0.927, TC 0.876 (HD 16.3/4.7/15.3 mm); top-ranking transformer among >2,000 validation submissions",MICCAI BraTS challenge,
+MedSAM,"Interactive segmentation, 11 modalities (>200,000 training masks)",Average DSC gain over SAM: +22.5% (3D tasks) and +17.6% (2D tasks); ranked first on most of 86 internal validation tasks vs. specialist U-Net/DeepLabV3+,Multi-dataset internal + external validation,
+TotalSegmentator,"104 structures, routine clinical CT (1,204 exams)",Mean Dice 0.943 (95% CI 0.938–0.947); NSD 0.966; on external BTCV data Dice 0.849,Held-out real-world test set + external dataset,
+Challenge baselines (cardiac),"ACDC (150 examinations), MM-WHS, M&Ms (multi-vendor/-disease)","ACDC best methods: 0.97 correlation for clinical indices, 0.96 diagnosis accuracy; performance drops markedly under vendor/domain shift in M&Ms",Public challenges,
+Left atrial LGE MRI analysis,Atrial geometry/scar for AF ablation planning,Reviewed pipeline performance; segmentation remains the bottleneck step,Systematic review,

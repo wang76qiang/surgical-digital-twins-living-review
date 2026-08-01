@@ -1,0 +1,12 @@
+﻿# Table 7. Notation and terminology.
+Symbol,Definition,Surgical interpretation
+s_t,"Latent patient state at time t (anatomy, physiology, pathology)",Image-derived reconstruction and estimated physiology (Sections 2.1–2.3)
+"y_t, H, v_t","Observation, observation operator, measurement noise","Intraoperative imaging, biosignals; segmentation/registration as inversion of H"
+θ,"Model parameters (constitutive, boundary, conduction)","Tissue stiffness, outlet resistances, conductivities (Table 6)"
+w_t,Process noise,"Physiological drift, surgical perturbation"
+a ∈ A,Candidate intervention from the admissible set,"Resection trajectory, screw configuration, implant size/position, ablation target"
+f_θ (or F),Forward (transition) model,FEA/CFD/FSI/electrophysiology simulation (Section 2.3)
+"L(ŝ, a)",Clinical objective/cost functional,"Residual tumor, deficit risk, postoperative hemodynamics, stability"
+"d(·,·)",Discrepancy measure,Distance between simulated and observed outcomes
+g_i(·) ≤ 0,Clinical constraints,"Dose limits, structure avoidance, reachability"
+"K_t, P_t, R","Filter gain, state covariance, observation noise covariance",Data-assimilation quantities (Section 2.4)

@@ -1,0 +1,9 @@
+﻿# Table 5. Representative registration methods and reported performance (values as reported; TRE = target registration error).
+Method,Modality pair / task,Reported performance,Validation data,Reference
+VoxelMorph,Brain MRI–MRI deformable,"Dice 0.742–0.750 vs. ANTs 0.749; GPU 0.37–0.55 s vs. ANTs CPU 9,059 s (~150×)","3,731 public brain MRI scans",
+SynthMorph,"Cross-contrast/cross-modality brain MRI, CT","Accuracy surpassing state of the art within and across contrasts with a single model, trained without acquired images",Multi-contrast datasets,
+Wein et al.,CT–US (abdominal intervention),Automatic registration with millimeter-range accuracy; clinical feasibility,Clinical and phantom data,
+Rivaz et al.,Deformable MR–iUS brain-shift correction,Mean TRE 5.9 → 2.9 mm; max TRE 17.0 → 5.9 mm (13 patients); ~30 s per registration on one CPU core,13 neurosurgical tumor resections,
+Structured-light surface registration,Intraoperative surface-to-CT (spine),High puncture accuracy (reported up to 100% within clinical tolerance) in minimally invasive series,Clinical series,
+Brain shift (problem magnitude),Preoperative MRI vs. intraoperative scene,Magnitudes span mm to cm depending on intervention; initial rigid-tracking TRE up to 17.0 mm in clinical series,Systematic review + clinical series,
+TRE theory,Rigid point-based registration,Landmark TRE is configuration-dependent and underestimates error distant from fiducials,Theoretical,

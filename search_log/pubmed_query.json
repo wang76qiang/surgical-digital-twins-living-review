@@ -1,0 +1,5 @@
+{
+ "query": "((\"digital twin\"[Title/Abstract] OR \"virtual patient\"[Title/Abstract] OR patient-specific model*[Title/Abstract]) AND (surg*[Title/Abstract] OR intraoperat*[Title/Abstract] OR perioperat*[Title/Abstract] OR \"image-guided\"[Title/Abstract] OR navigation[Title/Abstract] OR intervention*[Title/Abstract] OR \"surgery\"[MeSH Terms] OR \"surgical procedures, operative\"[MeSH Terms]) AND (imaging[Title/Abstract] OR segmentation[Title/Abstract] OR registration[Title/Abstract] OR simulation[Title/Abstract] OR biomechan*[Title/Abstract] OR hemodynamic*[Title/Abstract] OR electrophysiolog*[Title/Abstract])) AND (\"2015/01/01\"[Date - Publication] : \"2025/12/31\"[Date - Publication]) AND humans[MeSH Terms] AND english[Language]",
+ "executed": "2026-07-29",
+ "count": "539"
+}

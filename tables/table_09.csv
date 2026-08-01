@@ -1,0 +1,7 @@
+﻿# Table 9. Reported computational cost of full-order versus accelerated simulation in twin-relevant tasks (values as reported).
+Task,Full-order cost,Accelerated approach,Reported speed-up,Accuracy caveat,Reference
+Breast-cancer response calibration (50 patients),"Mechanistic PDE model, repeated solves",POD-based model order reduction,378 ± 280× faster calibration,Concordance with full model: CCC 0.986 ± 0.012,
+Atrial electrophysiology twin generation (cohort of 50 atria),Volumetric EP simulation pipeline,Automated end-to-end computational framework,Cohort-scale generation feasible in a streamlined workflow,ECG-calibrated; high-fidelity ECG computation,
+Cardiac repolarization personalization,Repeated EP solves for parameter search,ECG+MRI-driven personalization pipeline,Practical personalization for virtual drug testing,Validated against clinical recordings,
+Generic PDE forward solves,FEA/CFD solves (minutes–hours),"Neural operators (FNO, DeepONet)",Orders-of-magnitude per-query speed-up after training,Accuracy degrades under distributional shift; error bounds an open problem,
+Learning-based deformable registration,"Iterative optimization (ANTs CPU 9,059 s)",Single CNN forward pass,GPU 0.37–0.55 s (~150×),Dice within 0.007 of ANTs,

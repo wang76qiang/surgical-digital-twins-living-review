@@ -1,0 +1,9 @@
+﻿"# Table 12. Deployed commercial/regulatory-cleared systems relevant to surgical twinning, rated on the proposed maturity scale (vendor documentation and published regulatory summaries; ratings are this review's assessment)."
+System (vendor),Clinical domain,Regulatory status,Core capability,Maturity rating
+StealthStation (Medtronic),Neurosurgical/spinal navigation,"FDA-cleared, long clinical history",Preoperative plan + intraoperative tracking,L2
+Brainlab navigation platforms,Cranial/spinal navigation and planning,FDA/CE,"Multimodal planning, tracking, AR options",L2
+Mako (Stryker),Robotic arthroplasty,FDA-cleared,CT-based planning + robotic execution,L2 (L3 elements: implant-specific biomechanical planning)
+ROSA (Zimmer Biomet),Robotic knee/brain procedures,FDA-cleared,Plan + robotic guidance,L2
+HeartFlow FFRct,Coronary physiology from CTA,FDA-cleared; reimbursed,Patient-specific CFD-derived FFR with prospective validation,L3 (predictive simulation; no intraoperative loop)
+ExactechGPS / navigation arthroplasty,Shoulder arthroplasty,FDA-cleared,Intraoperative implant navigation with outcome data ,L2
+Research-stage cardiac EP twins ,Electrophysiology planning,None (research),ECG-calibrated predictive EP simulation,L3–L4

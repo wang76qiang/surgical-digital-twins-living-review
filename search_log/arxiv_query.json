@@ -1,0 +1,1 @@
+{"query": "(all:%22digital+twin%22+OR+all:%22virtual+patient%22+OR+all:%22patient-specific+model%22)+AND+(all:surgery+OR+all:surgical+OR+all:neurosurgery+OR+all:orthopedic+OR+all:cardiac)+AND+(all:imaging+OR+all:segmentation+OR+all:registration+OR+all:simulation)", "executed": "2026-07-29", "total_reported": "103", "fetched": 80}

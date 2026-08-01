@@ -1,0 +1,7 @@
+﻿# Table 2. Imaging modalities used for surgical digital twin construction and their relevant properties.
+Modality,Spatial resolution,Soft-tissue contrast,Real-time capability,Ionizing radiation,Typical role in the twin
+CT / photon-counting CT,Sub-millimeter,"Low (bone, calcium, implants high)",No,Yes,Bone and implant geometry; vascular calcification 
+"MRI (incl. DTI, cine)",~1 mm,High,Limited (cine),No,"Soft tissue, tumor, white-matter tracts, cardiac function "
+Ultrasound / elastography,Sub-millimeter to mm,"Moderate, operator-dependent",Yes,No,Intraoperative updating; tissue stiffness 
+Intraoperative CT/MRI,Comparable to diagnostic,As parent modality,Near real-time,CT: yes,Registration targets for navigation 
+"Fluorescence (e.g., ICG)","mm, surface-weighted",Functional (perfusion),Yes,No,Margin and perfusion assessment 

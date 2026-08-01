@@ -1,0 +1,11 @@
+﻿# Table 8. Taxonomy of virtual iteration in surgical digital twins.
+Dimension,Category,Surgical meaning,Representative methods/tools
+Driving paradigm,Physics-driven,FEA/CFD/FSI/electrophysiology forward simulation,"FEBio , SimVascular , openCARP "
+,Data-driven,Learned outcome predictors,ML risk/outcome models 
+,Hybrid (physics-informed ML),Learned simulators constrained by physics,PINNs ; neural operators ; VR-coupled differentiable simulation 
+Iteration timing,Offline,Preoperative plan optimization,Plan comparison and rehearsal 
+,Online,Intraoperative re-planning under fresh imaging,Navigation with dynamic update 
+,Longitudinal,Postoperative and rehabilitative re-planning,Fracture-healing twins ; rehabilitation twins 
+Updated object,Structure (geometry),Anatomy deforms or grows,Deformable registration ; growth models 
+,Parameters,"Material properties, boundary conditions",Bayesian/filter-based assimilation 
+,Policy (plan),The intervention itself,Bayesian optimization ; reinforcement/imitation learning; MPC 

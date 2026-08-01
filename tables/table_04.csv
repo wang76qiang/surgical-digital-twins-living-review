@@ -1,0 +1,7 @@
+﻿# Table 4. Foundation models relevant to rapid anatomical twin construction (values as reported).
+Model,Scope / modality,Interaction,Reported evidence,Reference
+SAM,Natural images (class-agnostic),Point/box/mask prompts,Class-agnostic promptable segmentation at scale,
+MedSAM,"11 medical modalities (>200,000 masks)","Box prompts, interactive correction",+22.5% / +17.6% average DSC over SAM (3D/2D); first rank on most of 86 internal tasks,
+SAM-Med3D,Volumetric medical images,3D prompts,3D adaptation of SAM for medical volumes,
+VISTA3D,3D CT (unified),Automatic + interactive,Unified CT segmentation across anatomies,
+SegVol,"Volumetric, universal + interactive",Point/box/zoom prompts,Universal and interactive volumetric segmentation,

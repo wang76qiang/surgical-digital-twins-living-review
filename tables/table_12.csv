@@ -1,0 +1,7 @@
+﻿# Table 11. Certainty of evidence for the principal quantitative claims of Section 4.5 (GRADE-style assessment by this review).
+Outcome,Pooled estimate (source),Certainty,Principal reasons for downgrading
+"Pedicle perforation risk, navigated vs. conventional","RR 0.39 (20 studies, 8,539 screws) ",Moderate,"Non-randomized comparisons (-1); objective CT endpoint, large consistent effect (+0)"
+Clinically acceptable screw placement,"96.2% vs. 94.2% (30 studies, 24,600 screws) ",Moderate,Non-randomized comparisons (-1); heterogeneous grading systems
+Postoperative screw revision (navigated),"OR 0.3 (0.2-0.5) (37 studies, 7,095 patients) ",Moderate,Non-randomized comparisons (-1); robust in sensitivity analyses (+0)
+Postoperative screw revision (robot-guided),OR 0.3 (0.1-0.9) ,Low,Non-randomized comparisons (-1); fragility in sensitivity analyses (-1)
+Hard patient outcomes (neurological complications),"No neurological complications in 4,814 navigated screws ",Low,"Sparse events, indirectness (-2)"
